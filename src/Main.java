@@ -14,5 +14,8 @@ public class Main {
         System.out.println("Значение переменной applesCount с типом float равно " + pi);
         double e = 2.8; //основание натурального логарифма
         System.out.println("Значение переменной applesCount с типом double равно " + e);
+
+        //Задача 2
+        System.out.println("Task 2");
     }
 }
