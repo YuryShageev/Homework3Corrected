@@ -17,5 +17,22 @@ public class Main {
 
         //Задача 2
         System.out.println("Task 2");
+        float variable1 = 27.12f;
+        long variable2 = 987678965549L;
+        double variable3 = 2.786;
+        boolean variable4 = false;
+        char variable5 = 569;
+        short variable6 = -159;
+        int variable7 = 27897;
+        byte variable8 = 67;
+
+        //Задача 3
+        System.out.println("Task 3");
+        int pupilsInFirstClass = 23;
+        int pupilsInSecondClass = 27;
+        int pupilsInThirdClass = 30;
+        int papersCount = 480;
+        int papersPerPupil = papersCount / (pupilsInFirstClass + pupilsInSecondClass + pupilsInThirdClass);
+        System.out.println("На каждого ученика рассчитано " + papersPerPupil + " листов бумаги");
     }
 }
