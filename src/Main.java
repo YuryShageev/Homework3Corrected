@@ -34,5 +34,29 @@ public class Main {
         int papersCount = 480;
         int papersPerPupil = papersCount / (pupilsInFirstClass + pupilsInSecondClass + pupilsInThirdClass);
         System.out.println("На каждого ученика рассчитано " + papersPerPupil + " листов бумаги");
+
+        //Задача 4
+        System.out.println("Task 4");
+        int bottles = 16;
+        int minutes = 2;
+        int productivityPerMinute = bottles/minutes;
+        int twentyMinutes = 20;
+        System.out.println("За "+ twentyMinutes +" минут машина произвела бутылок "+ productivityPerMinute * twentyMinutes +" штук ");
+        int minutesInDay = 24 * 60;
+        System.out.println("За "+ minutesInDay +" минут машина произвела бутылок "+ productivityPerMinute * minutesInDay +" штук ");
+        int minutesInThreeDays = 3 * minutesInDay;
+        System.out.println("За "+ minutesInThreeDays +" минут машина произвела бутылок "+ productivityPerMinute * minutesInThreeDays +" штук ");
+        int minutesInMonth = 30 * minutesInDay; // В месяце 30 дней
+        System.out.println("За "+ minutesInMonth +" минут машина произвела бутылок "+ productivityPerMinute * minutesInMonth +" штук ");
+
+        //Задача 5
+        System.out.println("Task 5");
+        int totalCans = 120;
+        int whiteCansPerClass = 2;
+        int brownCansPerClass = 4;
+        int totalClasses = totalCans/(whiteCansPerClass+brownCansPerClass);
+        int totalWhiteCans = totalClasses*whiteCansPerClass;
+        int totalBrownCans = totalClasses*brownCansPerClass;
+        System.out.println("В школе, где "+totalClasses+" классов, нужно "+totalWhiteCans+" банок белой краски и "+totalBrownCans+" банок коричневой краски");
     }
 }
